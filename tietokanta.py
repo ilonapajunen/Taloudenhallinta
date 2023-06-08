@@ -7,7 +7,7 @@ collection = db.taloudenhallinta
 
 def yhdista_mongoon():
     try:
-        CONNECTION_STRING="mongodb+srv://<temp>:<temp>@ekatietokanta.7dk9tsm.mongodb.net/?retryWrites=true&w=majority"
+        CONNECTION_STRING="mongodb+srv://<username>:<password>@ekatietokanta.7dk9tsm.mongodb.net/?retryWrites=true&w=majority"
         connection = MongoClient(CONNECTION_STRING)
         print("yhteys ok")
         return connection["taloudenhallinta"]
