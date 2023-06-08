@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from datetime import datetime
 
-connection = MongoClient("mongodb+srv://temp:temp@ekatietokanta.7dk9tsm.mongodb.net/?retryWrites=true&w=majority")
+connection = MongoClient("mongodb+srv://username: password@ekatietokanta.7dk9tsm.mongodb.net/?retryWrites=true&w=majority")
 db = connection.taloudenhallinta
 collection = db.taloudenhallinta
 
